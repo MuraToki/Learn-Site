@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/fa2e227030.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Home-Site</title>
+</head>
+<body class="font-serif">
+  <header class="p-5 md:flex justify-around items-center h-24 ">
+
+      <div>
+        <h1 class="text-center text-4xl md:text-5xl " id="anime">学ぶって楽しい！</h1>
+      </div>
+      <nav>
+        <ul class="hidden md:flex space-x-4" id="bounce">
+          <li class="text-2xl"><a href="#">Home</a></li>
+          <li class="text-2xl" ><a href="#">About</a></li>
+          <li class="text-2xl"><a href="#">Content</a></li>
+        </ul>
+      </nav>
+
+  </header>
+
+  <div class="md:hidden">
+    <div class="" id="menu-btn">
+      <i class="fas fa-align-right text-4xl" aria-hidden="true"></i>
+    </div>
+    <ul class="fixed bottom-0 flex justify-evenly w-full text-xl text-white text-center bg-yellow-500 md:hidden p-3" id="menu">
+      <li class="text-2xl" id="menu_item"><a href="https://liberaluni.com/" target="_blank" >Home</a></li>
+      <li class="text-2xl" id="menu_item"><a href="https://stand.fm/channels/6014d3df85b142d0d8c005a9" target="_blank">About</a></li>
+      <li class="text-2xl" id="menu_item"><a href="#content">Content</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <div class="bg-indigo-300 p-10">
+      <p class="text-center text-4xl mb-10" id="About">About</p>
+      <p class="text-center text-2xl mb-5" >
+        生産性を高めることや<br>
+        プログラミングのことも<br>
+        発信してる<br>
+        詳しく『⬇PUSH』<br>
+      </p>
+      <a href="https://www.youtube.com/channel/UC7I3QTra4_kC4TSu8f7rHkA" target="_blank">
+        <img  class="block m-auto rounded-lg" src="img/undraw_Abstract_re_l9xy.png" alt="" width="300px" height="300px" id="img">
+      </a>
+    </div>
+
+    
+    <!-- プログラミング関連 -->
+    <div class="bg-purple-300 pb-5">
+
+      <p class="text-center text-4xl mb-10 pt-5" id="content">Content</p>
+      <!-- ともふさ　環境構築VSCODE -->
+      <div class="mb-10">
+        <img class="mb-10 block m-auto rounded-lg" src="img/undraw_Nature_fun_re_iney.png" alt="" width="350px" height="300px">
+        <div class="text-center">
+          <h2  class="text-3xl">ともすた　たにぐち
+          </h2>
+          <p class="text-xl">
+            プログラミングについて詳しく解説されている。<br>
+            プログラミングを始める時にコードを書く必要がある。<br>
+            なので、エディタを入れる必要がある。<br>
+            第一ステップだ。
+          </p>
+          <div class="mt-8">
+            <a class="p-5 bg-gray-100 rounded-lg" href="https://youtube.com/playlist?list=PLh6V6_7fbbo8GHGIT2YUN56OcwEpz5I5n" target="_blank">PUSH!</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- しまぶー -->
+      <div class="mb-10">
+        <img class="mb-10 block m-auto rounded-lg" src="img/undraw_Website_setup_re_d4y9.png" alt="" width="350px" height="300px">
+        <div class="text-center">
+          <h2 class="text-3xl">しまぶー</h2>
+          <p class="text-xl">
+            プログラミングの講座とIT業界について発信してる。<br>
+            基礎講座をわかりやすく解説している。
+          </p>
+          <div class="mt-8">
+            <a class="p-5 bg-gray-100 rounded-lg" href="https://www.youtube.com/channel/UCti6dG0zSAetLGGYcgNML4Q" target="_blank">PUSH!</a>
+          </div>
+      </div>
+    </div>
+    
+    
+
+    <!-- 他の勉強関連 -->
+    <!-- 両学長 -->
+    <div class="mb-10">
+      <img class="mb-10 block m-auto rounded-lg" src="img/undraw_All_the_data_re_hh4w.png" alt="" width="350px" height="300px">
+      <div class="text-center">
+        <h2 class="text-3xl">両学長</h2>
+        <p class="text-xl">
+          主にお金のことについて解説されている<br>
+          他にもプログラミング(IT)のことも色々ある
+        </p>
+        <div class="mt-8">
+          <a class="p-5 bg-gray-100 rounded-lg"  href="https://www.youtube.com/c/ryogakucho/playlists" target="_blank">PUSH!</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 中田敦彦 -->
+    <div class="mb-10">
+      <img class="mb-10 block m-auto rounded-lg" src="img/undraw_Hello_re_3evm.png" alt="" width="350px" height="300px">
+      <div class="text-center">
+        <h2 class="text-3xl">中田敦彦のYoutube大学</h2>
+        <p class="text-xl">
+          楽しく学べる内容になっている<br>
+          本についても詳しく解説されている
+        </p>
+        <div class="mt-8">
+          <a class="p-5 bg-gray-100 rounded-lg" href="https://www.youtube.com/c/NKTofficial" target="_blank">PUSH!</a>
+        </div>
+      </div>
+    </div>
+      
+      <!-- 本要約チャンネル -->
+      <div class="mb-10">
+        <img class="mb-10 block m-auto rounded-lg" src="img/undraw_Development_re_g5hq.png" alt="" width="350px" height="300px">
+        <div class="text-center">
+          <h2 class="text-3xl">本要約チャンネル</h2>
+          <p class="text-xl">
+            本について詳しく解説されている<br>
+            本を買う前にこれを見ると良い
+          </p>
+          <div class="mt-8">
+            <a class="p-5 bg-gray-100 rounded-lg" href="https://www.youtube.com/channel/UCEixleMT76xDzoiEb9ZA7XA" target="_blank">PUSH!</a>
+          </div>
+        </div>
+      </div>
+        
+
+
+        </div>
+    
+  </main>
+  
+  <footer>
+    <div class="h-16 pt-4 bg-gray-800">
+      <p class="text-xl text-center text-white">Learning Site(仮)</p>
+    </div>
+  </footer>
+  
+  <script src="jquery.min.js"></script>
+  <script>
+ $(function(){
+  $('#menu-btn').on('click', function(){
+    $('#menu').toggleClass('is-active');
+  });
+}());
+  </script>
+  
+</body>
+</html>
